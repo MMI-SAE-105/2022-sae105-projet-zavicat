@@ -24,10 +24,12 @@ p,
 /*Taille des polices*/
 h1 {
     font-size: var(--title-h1);
+    letter-spacing: .3rem;
 }
 
 h2 {
     font-size: var(--title-h2);
+    letter-spacing: .3rem;
 }
 
 h3 {
