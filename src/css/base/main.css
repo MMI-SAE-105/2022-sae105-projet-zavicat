@@ -68,17 +68,23 @@ img {
     max-width: 80%;
 }
 
+/*Cards article*/
+
 .container {
+    top: 1300px;
     position: absolute;
     text-align: center;
-    top: 1350px;
     max-width: auto;
 }
 
 .containerText {
     position: absolute;
-    top: 0%;
-    left: 55px;
+    top: 0px;
+    left: 50px;
     line-height: 5px;
     text-align: left;
+}
+
+a {
+    text-decoration: none;
 }
