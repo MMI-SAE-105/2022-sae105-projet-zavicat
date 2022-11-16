@@ -1,0 +1,51 @@
+/*couleur de fond*/
+body {
+    background-color: var(--noir);
+}
+
+/*Police 'Aquire', couleurs typographiques*/
+h1,
+h2,
+h4 {
+    font-family: 'aquire';
+    color: white;
+}
+
+/*Police 'Europa Grotesk SH', couleurs typographiques*/
+
+h3,
+h5,
+p,
+.small {
+    font-family: 'Europa Grotesk SH';
+    color: white;
+}
+
+/*Taille des polices*/
+h1 {
+    font-size: var(--title-h1);
+}
+
+h2 {
+    font-size: var(--title-h2);
+}
+
+h3 {
+    font-size: var(--title-h3);
+}
+
+h4 {
+    font-size: var(--title-h4);
+}
+
+h5 {
+    font-size: var(--title-chapo)
+}
+
+p {
+    font-size: var(--body-m);
+}
+
+.small {
+    font-size: var(--body-s);
+}
