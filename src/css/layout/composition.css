@@ -1,0 +1,32 @@
+/*Footer*/
+footer {
+    width: 100%;
+    margin-bottom: 30px;
+    background-color: var(--noir);
+}
+
+.reseauxSociaux {
+    columns: 3;
+    max-width: 200px;
+    margin: auto;
+    padding: auto;
+}
+
+/*Header*/
+header {
+    position: sticky;
+    columns: 2;
+}
+
+.logo {
+    margin-left: 10px;
+}
+
+.boutonEN {
+    margin-right: -15px;
+    margin-left: 25px;
+}
+
+.menu {
+    max-width: 150%;
+}

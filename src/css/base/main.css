@@ -59,12 +59,42 @@ p {
     font-size: var(--body-s);
 }
 
+/*Couverture de l'accueil*/
 .h1Cyber {
-    text-align: left;
+    left: 0px;
+    top: 130px;
+    margin-bottom: -40px;
+    position: absolute;
+}
+
+.h1Cyber::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 5px;
+    background: white;
+    left: 290px;
+    top: 40px;
+    position: absolute;
+    border-radius: 5px;
 }
 
 .h1Soul {
-    text-align: right;
+    right: 0px;
+    margin-top: -50px;
+    position: absolute;
+}
+
+.h1Soul::before {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 5px;
+    background: white;
+    left: -100px;
+    top: 40px;
+    position: absolute;
+    border-radius: 5px;
 }
 
 /*Annulation des décorations de boutons*/
