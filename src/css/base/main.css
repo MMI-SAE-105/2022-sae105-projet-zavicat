@@ -9,6 +9,8 @@ h2,
 h4 {
     font-family: 'aquire';
     color: white;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 /*Police 'Europa Grotesk SH', couleurs typographiques*/
@@ -19,6 +21,8 @@ p,
 .small {
     font-family: 'Europa Grotesk SH';
     color: white;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 /*Taille des polices*/
@@ -50,6 +54,14 @@ p {
 
 .small {
     font-size: var(--body-s);
+}
+
+.h1Cyber {
+    text-align: left;
+}
+
+.h1Soul {
+    text-align: right;
 }
 
 /*Annulation des décorations de boutons*/
