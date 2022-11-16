@@ -29,11 +29,13 @@ p,
 h1 {
     font-size: var(--title-h1);
     letter-spacing: .3rem;
+    font-weight: bold;
 }
 
 h2 {
     font-size: var(--title-h2);
     letter-spacing: .3rem;
+    font-weight: bold;
 }
 
 h3 {
@@ -42,6 +44,7 @@ h3 {
 
 h4 {
     font-size: var(--title-h4);
+    font-weight: bold;
 }
 
 h5 {
