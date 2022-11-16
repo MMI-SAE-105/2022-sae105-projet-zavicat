@@ -49,3 +49,8 @@ p {
 .small {
     font-size: var(--body-s);
 }
+
+button {
+    border: none;
+    background: none;
+}
