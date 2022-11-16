@@ -94,7 +94,7 @@ img {
 }
 
 .containerText {
-    position: absolute;
+    position: static;
     top: 1210px;
     left: 50px;
     line-height: 5px;
@@ -119,4 +119,12 @@ a {
     background-image: linear-gradient(to right, var(--violet_sunset), var(--orange_sunset));
     background-origin: border-box;
     background-clip: padding-box, border-box;
+}
+
+.marginBot {
+    margin-bottom: 30px;
+}
+
+.marginTop {
+    margin-top: 0px;
 }
