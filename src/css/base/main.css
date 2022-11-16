@@ -72,22 +72,21 @@ img {
 }
 
 /*Cards article*/
-
 .container {
-    top: 1300px;
-    position: absolute;
+    position: relative;
     text-align: center;
     max-width: auto;
 }
 
 .containerText {
     position: absolute;
-    top: 0px;
+    top: 1210px;
     left: 50px;
     line-height: 5px;
     text-align: left;
 }
 
+/*Décorations de lien*/
 .lienCard {
     text-decoration: none;
 }
@@ -95,4 +94,14 @@ img {
 a {
     color: white;
     font-weight: bold;
+}
+
+.cardArticle {
+    width: 300px;
+    height: auto;
+    border: solid 3px transparent;
+    border-radius: 15px;
+    background-image: linear-gradient(to right, var(--violet_sunset), var(--orange_sunset));
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
 }
