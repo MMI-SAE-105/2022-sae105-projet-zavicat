@@ -1,5 +1,5 @@
 /*Polices de caractère*/
-@import "fonts/fonts.css";
+@import "../fonts/fonts.css";
 
 /*Librairies*/
 @import "vendors/normalize.css";
