@@ -66,6 +66,9 @@ button {
 
 img {
     max-width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*Cards article*/
