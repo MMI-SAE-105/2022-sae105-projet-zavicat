@@ -1,7 +1,32 @@
 .component1 {
     position: absolute;
     rotate: 90deg;
-    margin-left: -70px;
     top: 590px;
+    left: -70px;
     z-index: 1;
+}
+
+.component2 {
+    position: absolute;
+    top: 840px;
+    right: -45px;
+}
+
+.component3 {
+    position: absolute;
+    top: 1170px;
+    left: 30px;
+}
+
+.component4 {
+    position: absolute;
+    top: "";
+    left: "";
+}
+
+.component5 {
+    position: absolute;
+    top: "";
+    left: "";
+    z-index: "";
 }
