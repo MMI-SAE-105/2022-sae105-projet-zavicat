@@ -19,7 +19,7 @@ h3,
 h5,
 p,
 .small {
-    font-family: 'Europa Grotesk SH';
+    font-family: 'quicksand', sans-serif;
     color: white;
     padding-left: 20px;
     padding-right: 20px;
@@ -59,43 +59,6 @@ p {
     font-size: var(--body-s);
 }
 
-/*Couverture de l'accueil*/
-.h1Cyber {
-    left: 0px;
-    top: 130px;
-    margin-bottom: -40px;
-    position: absolute;
-}
-
-.h1Cyber::after {
-    content: "";
-    display: block;
-    width: 60px;
-    height: 5px;
-    background: white;
-    left: 285px;
-    top: 40px;
-    position: absolute;
-    border-radius: 5px;
-}
-
-.h1Soul {
-    right: 0px;
-    margin-top: -50px;
-    position: absolute;
-}
-
-.h1Soul::before {
-    content: "";
-    display: block;
-    width: 80px;
-    height: 5px;
-    background: white;
-    left: -105px;
-    top: 40px;
-    position: absolute;
-    border-radius: 5px;
-}
 
 /*Annulation des décorations de boutons*/
 button {
@@ -141,6 +104,7 @@ a {
     font-weight: bold;
 }
 
+/*Card article*/
 .cardArticle {
     width: 300px;
     height: auto;
@@ -149,12 +113,4 @@ a {
     background-image: linear-gradient(to right, var(--violet_sunset), var(--orange_sunset));
     background-origin: border-box;
     background-clip: padding-box, border-box;
-}
-
-.marginBot {
-    margin-bottom: 30px;
-}
-
-.marginTop {
-    margin-top: 0px;
 }

@@ -22,6 +22,7 @@ header {
     margin-left: 10px;
 }
 
+/*Style des boutons*/
 .boutonEN {
     margin-right: -15px;
     margin-left: 25px;
@@ -29,4 +30,42 @@ header {
 
 .menu {
     max-width: 150%;
+}
+
+/*Couverture de l'accueil*/
+.h1Cyber {
+    left: 0px;
+    top: 130px;
+    margin-bottom: -40px;
+    position: absolute;
+}
+
+.h1Cyber::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 5px;
+    background: white;
+    left: 285px;
+    top: 40px;
+    position: absolute;
+    border-radius: 5px;
+}
+
+.h1Soul {
+    right: 0px;
+    margin-top: -50px;
+    position: absolute;
+}
+
+.h1Soul::before {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 5px;
+    background: white;
+    left: -105px;
+    top: 40px;
+    position: absolute;
+    border-radius: 5px;
 }
