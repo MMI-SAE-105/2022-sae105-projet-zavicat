@@ -69,3 +69,8 @@ header {
     position: absolute;
     border-radius: 5px;
 }
+
+.intro {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
