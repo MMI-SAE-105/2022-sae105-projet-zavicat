@@ -70,7 +70,12 @@ header {
     border-radius: 5px;
 }
 
-.intro {
+.introTitle {
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+.intro {
+    position: relative;
+    z-index: 2;
 }
