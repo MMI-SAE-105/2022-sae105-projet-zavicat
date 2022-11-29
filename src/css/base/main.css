@@ -59,6 +59,19 @@ p {
     font-size: var(--body-s);
 }
 
+/*Titres centrés*/
+.titleText {
+    text-align: center;
+    line-height: 5px;
+}
+
+.articleHeader1 {
+    margin-bottom: -40px;
+}
+
+.articleHeader1::after {
+    content: url(../../../public/img/avatar_zoe.svg);
+}
 
 /*Annulation des décorations de boutons*/
 button {
