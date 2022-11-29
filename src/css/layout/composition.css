@@ -14,21 +14,30 @@ footer {
 
 /*Header*/
 header {
+    display: flex;
+    justify-content: space-between;
     position: sticky;
-    columns: 2;
+}
+
+.flexRight {
+    margin-right: 20px;
+}
+
+.flexLeft {
+    margin-left: 8px;
 }
 
 .logo {
     margin-left: 10px;
 }
 
-/*Style des boutons*/
 .boutonEN {
     margin-right: -15px;
     margin-left: 25px;
 }
 
 .menu {
+    margin-bottom: 1px;
     max-width: 150%;
 }
 
