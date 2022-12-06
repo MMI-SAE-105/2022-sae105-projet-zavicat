@@ -1,7 +1,7 @@
 - NOM : Vicat
 - PRÉNOM : Zoe-Augustine
-- URL du site :
-- URL FIGMA :
+- URL du site : 
+- URL FIGMA : https://www.figma.com/file/7p1C5pG8BOoA0YjW05kB4a/Maquettes-projet-individuel-%E2%80%94-Zoe-Augustine_Vicat?node-id=905%3A784&t=jeE8d7EINWCYlagK-1
 
 # Structure de départ pour le projet individuel.
 
