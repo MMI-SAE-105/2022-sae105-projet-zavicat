@@ -1,0 +1,19 @@
+.imageAbout1 {
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.imageAbout1::before {
+    content: url(../../../public/icons/cloud_4.svg);
+    position: absolute;
+    top: -25px;
+    left: 10px;
+}
+
+.imageAbout1::after {
+    content: url(../../../public/icons/cloud_5.svg);
+    position: absolute;
+    bottom: -40px;
+    right: 10px;
+}
