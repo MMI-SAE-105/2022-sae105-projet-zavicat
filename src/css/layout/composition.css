@@ -12,33 +12,12 @@ footer {
     padding: auto;
 }
 
-/*Header*/
-header {
-    display: flex;
-    justify-content: space-between;
-    position: sticky;
-}
-
 .flexRight {
     margin-right: 20px;
 }
 
 .flexLeft {
     margin-left: 8px;
-}
-
-.logo {
-    margin-left: 10px;
-}
-
-.boutonEN {
-    margin-right: -15px;
-    margin-left: 25px;
-}
-
-.menu {
-    margin-bottom: 1px;
-    max-width: 150%;
 }
 
 /*Couverture de l'accueil*/

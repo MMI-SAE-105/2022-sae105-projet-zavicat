@@ -1,0 +1,13 @@
+/*Footer*/
+footer {
+    width: 100%;
+    margin-bottom: 30px;
+    background-color: var(--noir);
+}
+
+.reseauxSociaux {
+    columns: 3;
+    max-width: 200px;
+    margin: auto;
+    padding: auto;
+}

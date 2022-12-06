@@ -15,4 +15,6 @@
 
 /*Composants*/
 @import "components/composants.css";
-@import "components/imageAbout1.css"
+@import "components/imageAbout1.css";
+@import "components/header.css";
+@import "components/footer.css";
