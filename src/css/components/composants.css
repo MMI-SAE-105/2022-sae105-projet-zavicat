@@ -31,3 +31,9 @@
     left: "";
     z-index: "";
 }
+
+.componentabout {
+    position: absolute;
+    top: 720px;
+    left: 10px;
+}
