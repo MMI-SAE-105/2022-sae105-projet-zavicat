@@ -55,7 +55,8 @@ p {
     font-size: var(--body-m);
 }
 
-.small {
+.small,
+.footerText {
     font-size: var(--body-s);
 }
 
