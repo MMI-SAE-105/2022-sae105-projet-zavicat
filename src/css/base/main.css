@@ -66,28 +66,6 @@ p {
     line-height: 0.3125rem;
 }
 
-.articleHeader {
-    text-align: center;
-    line-height: 5px;
-}
-
-.articleImage::after {
-    content: url(../../../public/icons/arrow.svg);
-}
-
-/*Bordures des textes 'quote'*/
-.quoteText::before {
-    content: url(../../../public/icons/border_up.svg);
-}
-
-.quoteText::after {
-    content: url(../../../public/icons/border_down.svg);
-}
-
-.articleHeader1 {
-    margin-bottom: -2.5rem;
-}
-
 /*Avatar de la page about A REFAIRE*/
 .articleHeader1::after {
     content: url(../../../public/img/avatar_zoe.svg);

@@ -1,0 +1,29 @@
+/*Elements de base des articles*/
+.articleHeader {
+    text-align: center;
+    line-height: 5px;
+}
+
+/*Flèche*/
+.articleImage::after {
+    content: url(../../../public/icons/arrow.svg);
+    position: absolute;
+    top: 28.5em;
+    left: 7em;
+}
+
+/*Bordures*/
+.quoteText::before {
+    content: url(../../../public/icons/border_up.svg);
+}
+
+.quoteText::after {
+    content: url(../../../public/icons/border_down.svg);
+}
+
+/*Espacements*/
+.quoteText {
+    line-height: 1.2em;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
