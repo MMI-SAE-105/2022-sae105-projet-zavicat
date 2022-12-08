@@ -1,0 +1,81 @@
+/*Définition de la frise en relative*/
+.tlMain {
+    position: relative;
+}
+
+/*Style des images*/
+.tlImage1 {
+    border-style: solid;
+    border-radius: 1.875rem;
+    border-color: white;
+    border-width: .4375rem;
+    width: 15rem;
+    height: 15rem;
+}
+
+.tlImage2 {
+    border-style: solid;
+    border-radius: 1.875rem;
+    border-color: white;
+    border-width: .4375rem;
+    width: 15rem;
+    height: 15rem;
+}
+
+.tlImage3 {
+    border-style: solid;
+    border-radius: 1.875rem;
+    border-color: white;
+    border-width: .4375rem;
+    width: 15rem;
+    height: 15rem;
+}
+
+/*style des espaces textuels*/
+.tlContainer1 {
+    position: absolute;
+    display: block;
+    margin: auto;
+    text-align: center;
+    height: 3.125rem;
+    width: 14rem;
+    background-color: white;
+    border-radius: 1.25rem;
+    top: 13.5rem;
+    left: 6.5rem;
+    z-index: 1;
+}
+
+.tlContainer2 {
+    position: absolute;
+    display: block;
+    margin: auto;
+    text-align: center;
+    height: 3.125rem;
+    width: 14rem;
+    background-color: white;
+    border-radius: 1.25rem;
+    top: 13.5rem;
+    left: 3rem;
+    z-index: 1;
+}
+
+.tlContainer3 {
+    position: absolute;
+    display: block;
+    margin: auto;
+    text-align: center;
+    height: 3.125rem;
+    width: 14rem;
+    background-color: white;
+    border-radius: 1.25rem;
+    top: 13.5rem;
+    left: 6.5rem;
+    z-index: 1;
+}
+
+/*style du texte*/
+.tl {
+    color: black;
+    line-height: 0px;
+}
