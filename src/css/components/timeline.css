@@ -82,8 +82,6 @@
 /*style des espaces textuels*/
 .tlContainer1 {
     position: absolute;
-    display: block;
-    margin: auto;
     text-align: center;
     height: 3.125rem;
     width: 14rem;
@@ -96,8 +94,8 @@
 
 .tlContainer2 {
     position: absolute;
-    display: block;
-    margin: auto;
+    display: flex;
+    flex-direction: column;
     text-align: center;
     height: 3.125rem;
     width: 14rem;
@@ -110,8 +108,6 @@
 
 .tlContainer3 {
     position: absolute;
-    display: block;
-    margin: auto;
     text-align: center;
     height: 3.125rem;
     width: 14rem;
@@ -125,5 +121,5 @@
 /*style du texte*/
 .tl {
     color: black;
-    line-height: 0px;
+    line-height: 0rem;
 }
