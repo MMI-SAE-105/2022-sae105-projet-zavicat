@@ -64,6 +64,21 @@
     z-index: -1;
 }
 
+/*Composants de la frise*/
+.tlMain:first-child::before {
+    content: url(../../../public/icons/cross_mix.svg);
+    position: absolute;
+    left: 1rem;
+    top: 14.5rem;
+}
+
+.tlMain:last-child::after {
+    content: url(../../../public/icons/patterns_mix_2.svg);
+    position: absolute;
+    right: -0.8rem;
+    bottom: 15.5rem;
+}
+
 /*style des espaces textuels*/
 .tlContainer1 {
     position: absolute;
