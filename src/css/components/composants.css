@@ -8,9 +8,15 @@
 }
 
 .component2 {
+    position: relative;
+    overflow: hidden;
+}
+
+.component2::after {
+    content: url(../../../public/icons/patterns_mix_3.svg);
     position: absolute;
-    top: 52.5rem;
-    right: -2.8125rem;
+    right: -2.8em;
+    top: 45px;
 }
 
 .component3 {
