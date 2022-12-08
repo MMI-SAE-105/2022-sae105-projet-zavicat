@@ -8,3 +8,6 @@ fr/index.html
 footer
     - changer l'import du composant en :before
     - utiliser flex plutôt que columns
+
+*
+    - renommer "imageAbout1.css"
