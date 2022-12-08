@@ -1,49 +1,49 @@
 /*Couverture de l'accueil*/
 .h1Cyber {
-    left: 0px;
-    top: 130px;
-    margin-bottom: -40px;
+    left: 0rem;
+    top: 8.125rem;
+    margin-bottom: -2.5rem;
     position: absolute;
 }
 
 .h1Cyber::after {
     content: "";
     display: block;
-    width: 60px;
-    height: 5px;
+    width: 3.75rem;
+    height: 0.3125rem;
     background: white;
-    left: 285px;
-    top: 40px;
+    left: 17.8125rem;
+    top: 2.5rem;
     position: absolute;
-    border-radius: 5px;
+    border-radius: 0.3125rem;
 }
 
 .h1Soul {
-    right: 0px;
-    margin-top: -50px;
+    right: 0rem;
+    margin-top: -3.125rem;
     position: absolute;
 }
 
 .h1Soul::before {
     content: "";
     display: block;
-    width: 80px;
-    height: 5px;
+    width: 5rem;
+    height: 0.3125rem;
     background: white;
-    left: -105px;
-    top: 40px;
+    left: -6.5625rem;
+    top: 2.5rem;
     position: absolute;
-    border-radius: 5px;
+    border-radius: 0.3125rem;
 }
 
 /*Style de l'introduction fr/index*/
 .introTitle {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 3.125rem;
+    margin-bottom: 3.125rem;
 }
 
 .intro {
     position: relative;
     z-index: 2;
-    margin-bottom: 45px;
+    margin-bottom: 2.8125rem;
 }

@@ -1,11 +1,11 @@
 :root {
-    --title-h1: 64px;
-    --title-h2: 36px;
-    --title-h3: 30px;
-    --title-h4: 20px;
-    --title-chapo: 18px;
-    --body-m: 18px;
-    --body-s: 14px;
+    --title-h1: 4rem;
+    --title-h2: 2.25rem;
+    --title-h3: 1.875rem;
+    --title-h4: 1.25rem;
+    --title-chapo: 1.125rem;
+    --body-m: 1.125rem;
+    --body-s: 0.875rem;
     --noir: #101010;
     --rose_sunrise: #EB00FF;
     --orange_sunrise: #FFA800;

@@ -2,21 +2,21 @@
 .component1 {
     position: absolute;
     rotate: 90deg;
-    top: 590px;
-    left: -70px;
+    top: 36.875rem;
+    left: -4.375rem;
     z-index: 1;
 }
 
 .component2 {
     position: absolute;
-    top: 840px;
-    right: -45px;
+    top: 52.5rem;
+    right: -2.8125rem;
 }
 
 .component3 {
     position: absolute;
-    top: 1170px;
-    left: 30px;
+    top: 73.125rem;
+    left: 1.875rem;
 }
 
 .component4 {
@@ -34,6 +34,6 @@
 
 .componentabout {
     position: absolute;
-    top: 756px;
-    left: 10px;
+    top: 47.25rem;
+    left: 0.625rem;
 }

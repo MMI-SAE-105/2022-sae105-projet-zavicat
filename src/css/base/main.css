@@ -9,8 +9,8 @@ h2,
 h4 {
     font-family: 'aquire';
     color: white;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
 }
 
 /*Police 'Europa Grotesk SH', couleurs typographiques*/
@@ -21,20 +21,20 @@ p,
 .small {
     font-family: 'quicksand', sans-serif;
     color: white;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
 }
 
 /*Taille des polices*/
 h1 {
     font-size: var(--title-h1);
-    letter-spacing: .3rem;
+    letter-spacing: 0.3rem;
     font-weight: bold;
 }
 
 h2 {
     font-size: var(--title-h2);
-    letter-spacing: .3rem;
+    letter-spacing: 0.3rem;
     font-weight: bold;
 }
 
@@ -63,6 +63,11 @@ p {
 /*Titres centrés*/
 .titleText {
     text-align: center;
+    line-height: 0.3125rem;
+}
+
+.articleHeader {
+    text-align: center;
     line-height: 5px;
 }
 
@@ -78,10 +83,12 @@ p {
 .quoteText::after {
     content: url(../../../public/icons/border_down.svg);
 }
+
 .articleHeader1 {
-    margin-bottom: -40px;
+    margin-bottom: -2.5rem;
 }
 
+/*Avatar de la page about A REFAIRE*/
 .articleHeader1::after {
     content: url(../../../public/img/avatar_zoe.svg);
 }
@@ -113,9 +120,9 @@ img {
 
 .containerText {
     position: static;
-    top: 1210px;
-    left: 50px;
-    line-height: 5px;
+    top: 75.625rem;
+    left: 3.125rem;
+    line-height: 0.3125rem;
     text-align: left;
 }
 
@@ -131,10 +138,10 @@ a {
 
 /*Card article*/
 .cardArticle {
-    width: 300px;
+    width: 18.75rem;
     height: auto;
-    border: solid 3px transparent;
-    border-radius: 15px;
+    border: solid 0.1875rem transparent;
+    border-radius: 0.9375rem;
     background-image: linear-gradient(to right, var(--violet_sunset), var(--orange_sunset));
     background-origin: border-box;
     background-clip: padding-box, border-box;

@@ -1,18 +1,18 @@
 /*Footer*/
 footer {
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
     background-color: var(--noir);
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 .footerText {
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
 }
 
 .reseauxSociaux {
     columns: 3;
-    max-width: 200px;
+    max-width: 12.5rem;
     margin: auto;
     padding: auto;
 }
