@@ -46,6 +46,23 @@
     height: 15rem;
 }
 
+/*Lignes de la frise*/
+.tlMain:first-child::after {
+    content: url(../../../public/icons/timeline/path_right.svg);
+    position: absolute;
+    right: 1rem;
+    top: 7.5rem;
+    z-index: -1;
+}
+
+.tlMain:last-child::before {
+    content: url(../../../public/icons/timeline/path_left.svg);
+    position: absolute;
+    left: 1rem;
+    bottom: 7.5rem;
+    z-index: -1;
+}
+
 /*style des espaces textuels*/
 .tlContainer1 {
     position: absolute;
