@@ -1,29 +1,32 @@
 /*Elements de base des articles*/
 .articleHeader {
     text-align: center;
-    line-height: 5px;
+    line-height: .3125rem;
 }
 
 /*Flèche*/
 .articleImage::after {
     content: url(../../../public/icons/arrow.svg);
-    position: absolute;
-    top: 28.5em;
-    left: 7em;
+    display: block;
+    margin-top: -1.25rem;
 }
 
 /*Bordures*/
 .quoteText::before {
     content: url(../../../public/icons/border_up.svg);
+    display: block;
+    margin-bottom: -1em;
 }
 
 .quoteText::after {
     content: url(../../../public/icons/border_down.svg);
+    display: block;
+    margin-top: -1em;
 }
 
 /*Espacements*/
 .quoteText {
     line-height: 1.2em;
-    margin-top: 5em;
+    margin-top: 3em;
     margin-bottom: 5em;
 }
