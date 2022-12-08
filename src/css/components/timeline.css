@@ -3,6 +3,12 @@
     position: relative;
 }
 
+.timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 3.125rem;
+}
+
 /*Flèche*/
 .timeline::after {
     content: url(../../../public/icons/arrow.svg);
