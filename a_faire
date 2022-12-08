@@ -1,0 +1,10 @@
+fr/a_propos.html 
+    - Importer l'avatar directement dans le code html
+
+fr/index.html
+    - Placer les composants
+    - Refaire la card, ajouter les autres
+
+footer
+    - changer l'import du composant en :before
+    - utiliser flex plutôt que columns
