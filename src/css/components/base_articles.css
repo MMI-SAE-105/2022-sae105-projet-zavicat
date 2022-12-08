@@ -1,7 +1,8 @@
 /*Elements de base des articles*/
-.articleHeader {
+
+/*Alignement du titre et du sous-titre*/
+.articleText {
     text-align: center;
-    line-height: .3125rem;
 }
 
 /*Flèche*/
@@ -9,6 +10,7 @@
     content: url(../../../public/icons/arrow.svg);
     display: block;
     margin-top: -1.25rem;
+    text-align: center;
 }
 
 /*Bordures*/
@@ -27,6 +29,6 @@
 /*Espacements*/
 .quoteText {
     line-height: 1.2em;
-    margin-top: 3em;
-    margin-bottom: 5em;
+    margin-top: 2em;
+    margin-bottom: 3em;
 }

@@ -36,6 +36,7 @@ h2 {
     font-size: var(--title-h2);
     letter-spacing: 0.3rem;
     font-weight: bold;
+    line-height: 1em;
 }
 
 h3 {
