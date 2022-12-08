@@ -66,6 +66,18 @@ p {
     line-height: 5px;
 }
 
+.articleImage::after {
+    content: url(../../../public/icons/arrow.svg);
+}
+
+/*Bordures des textes 'quote'*/
+.quoteText::before {
+    content: url(../../../public/icons/border_up.svg);
+}
+
+.quoteText::after {
+    content: url(../../../public/icons/border_down.svg);
+}
 .articleHeader1 {
     margin-bottom: -40px;
 }
