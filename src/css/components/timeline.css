@@ -87,23 +87,23 @@
     width: 14rem;
     background-color: white;
     border-radius: 1.25rem;
-    top: 13.5rem;
+    top: 11.5rem;
     left: 6.5rem;
-    z-index: 1;
+    padding-bottom: 1.875rem;
+
+
 }
 
 .tlContainer2 {
     position: absolute;
-    display: flex;
-    flex-direction: column;
     text-align: center;
     height: 3.125rem;
     width: 14rem;
     background-color: white;
     border-radius: 1.25rem;
-    top: 13.5rem;
+    top: 11.5rem;
     left: 3rem;
-    z-index: 1;
+    padding-bottom: 1.875rem;
 }
 
 .tlContainer3 {
@@ -113,13 +113,17 @@
     width: 14rem;
     background-color: white;
     border-radius: 1.25rem;
-    top: 13.5rem;
+    top: 11.5rem;
     left: 6.5rem;
-    z-index: 1;
+    padding-bottom: 1.875rem;
 }
 
 /*style du texte*/
 .tl {
     color: black;
     line-height: 0rem;
+}
+
+.tl3 {
+    padding: .6875rem;
 }
