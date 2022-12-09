@@ -1,0 +1,20 @@
+.cardContainer1 {
+    position: relative;
+    width: 300px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    margin: auto;
+    line-height: 0px;
+}
+
+.cardImage1 {
+    position: absolute;
+    width: 131px;
+    z-index: -1;
+    right: 0;
+}
+
+.cardText1 {
+    margin-bottom: 54px;
+}
