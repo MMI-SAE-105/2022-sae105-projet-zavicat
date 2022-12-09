@@ -17,3 +17,6 @@ variables
 
 fr/article_1
     - ajouter titre "navigation" avant la frise
+
+redirects
+    - designer la page redirects
