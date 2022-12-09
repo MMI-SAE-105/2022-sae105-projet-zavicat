@@ -1,125 +1,124 @@
+.cardsArticle {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    margin-top: 1.875rem;
+    margin-bottom: 4rem;
+
+}
+
 .cardContainer1 {
     position: relative;
-    width: 300px;
+    width: 18.75rem;
     border-style: solid;
     border-color: white;
-    border-radius: 10px;
+    border-radius: .625rem;
     margin: auto;
-    line-height: 0px;
+    line-height: 0rem;
 }
 
 .cardImage1 {
     position: absolute;
-    width: 131px;
+    width: 8.1875rem;
     z-index: -1;
     right: 0;
 }
 
 .cardText1 {
-    margin-bottom: 54px;
+    margin-bottom: 3.375rem;
 }
 
 .cardContainer2 {
     position: relative;
-    width: 300px;
+    width: 18.75rem;
     border-style: solid;
     border-color: white;
-    border-radius: 10px;
+    border-radius: .625rem;
     margin: auto;
-    line-height: 0px;
+    line-height: 0rem;
 }
 
 .cardImage2 {
     position: absolute;
-    width: 131px;
+    width: 8.4375rem;
     z-index: -1;
-    right: 0;
-}
-
-.cardText2 {
-    margin-bottom: 54px;
+    right: -0.125rem;
 }
 
 .cardContainer3 {
     position: relative;
-    width: 300px;
+    width: 18.75rem;
     border-style: solid;
     border-color: white;
-    border-radius: 10px;
+    border-radius: .625rem;
     margin: auto;
-    line-height: 0px;
+    line-height: 0rem;
 }
 
 .cardImage3 {
     position: absolute;
-    width: 131px;
+    width: 8.4375rem;
     z-index: -1;
-    right: 0;
+    right: -0.0625rem;
+    top: -0.0938rem;
 }
 
 .cardText3 {
-    margin-bottom: 54px;
+    margin-bottom: 3.375rem;
 }
 
 .cardContainer4 {
     position: relative;
-    width: 300px;
+    width: 18.75rem;
     border-style: solid;
     border-color: white;
-    border-radius: 10px;
+    border-radius: .625rem;
     margin: auto;
-    line-height: 0px;
+    line-height: 0rem;
 }
 
 .cardImage4 {
     position: absolute;
-    width: 131px;
+    width: 8.4375rem;
     z-index: -1;
-    right: 0;
-}
-
-.cardText4 {
-    margin-bottom: 54px;
+    right: -0.0938rem;
 }
 
 .cardContainer5 {
     position: relative;
-    width: 300px;
+    width: 18.75rem;
     border-style: solid;
     border-color: white;
-    border-radius: 10px;
+    border-radius: .625rem;
     margin: auto;
-    line-height: 0px;
+    line-height: 0rem;
 }
 
 .cardImage5 {
     position: absolute;
-    width: 131px;
+    width: 8.4375rem;
     z-index: -1;
-    right: 0;
-}
-
-.cardText5 {
-    margin-bottom: 54px;
+    top: -0.0625rem;
+    right: -0.0938rem;
 }
 
 .cardContainer6 {
     position: relative;
-    width: 300px;
+    width: 18.75rem;
     border-style: solid;
     border-color: white;
-    border-radius: 10px;
+    border-radius: .625rem;
     margin: auto;
-    line-height: 0px;
+    line-height: 0rem;
 }
 
 .cardImage6 {
     position: absolute;
-    width: 131px;
+    width: 8.4375rem;
     z-index: -1;
-    right: 0;
+    right: -0.0938rem;
 }
 
-.cardText6 {
-    margin-bottom: 54px;
+.cardTextSpacing {
+    line-height: 1.25rem;
 }
