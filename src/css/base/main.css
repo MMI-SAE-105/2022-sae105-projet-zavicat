@@ -36,7 +36,6 @@ h2 {
     font-size: var(--title-h2);
     letter-spacing: 0.3rem;
     font-weight: bold;
-    line-height: 1em;
 }
 
 h3 {
@@ -106,22 +105,8 @@ img {
 }
 
 /*Décorations de lien*/
-.lienCard {
-    text-decoration: none;
-}
-
 a {
     color: white;
     font-weight: bold;
-}
-
-/*Card article*/
-.cardArticle {
-    width: 18.75rem;
-    height: auto;
-    border: solid 0.1875rem transparent;
-    border-radius: 0.9375rem;
-    background-image: linear-gradient(to right, var(--violet_sunset), var(--orange_sunset));
-    background-origin: border-box;
-    background-clip: padding-box, border-box;
+    text-decoration: none;
 }
