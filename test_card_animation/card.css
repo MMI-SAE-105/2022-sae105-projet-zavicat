@@ -17,20 +17,20 @@ body {
 .cardBoxTest::before {
     content: '';
     position: absolute;
-    width: 350px;
-    height: 300px;
+    width: 550px;
+    height: 200px;
     background-image: conic-gradient(transparent, transparent, transparent, var(--orange_sunset));
-    animation: rotate 4s linear infinite;
+    animation: rotate 2s linear infinite;
 }
 
 .cardBoxTest::after {
     content: '';
     position: absolute;
-    width: 350px;
-    height: 300px;
+    width: 550px;
+    height: 200px;
     background-image: conic-gradient(transparent, transparent, transparent, var(--violet_sunset));
-    animation: rotate 4s linear infinite;
-    animation-delay: -2s;
+    animation: rotate 2s linear infinite;
+    animation-delay: 20s;
 }
 
 span {
@@ -58,11 +58,6 @@ span {
     bottom: 5px;
 }
 
-
-.cardText {
-    position: absolute;
-    z-index: 3;
-}
 
 @keyframes rotate {
     0% {
