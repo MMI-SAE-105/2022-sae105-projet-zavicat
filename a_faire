@@ -1,9 +1,9 @@
 fr/a_propos.html 
-    - Importer l'avatar directement dans le code html
+    - importer l'avatar directement dans le code html
 
 fr/index.html
-    - Placer les composants
-    - Refaire la card, ajouter les autres
+    - placer les composants
+    - refaire la card, ajouter les autres
 
 footer
     - changer l'import du composant en :before
@@ -20,3 +20,10 @@ fr/article_1
 
 redirects
     - designer la page redirects
+
+test_card_animation
+    - régler le problème de position et de superposition du texte de la card
+    - appliquer les données du dossier à fr/index.html (cards statiques)
+
+externe : maquette 
+    - compléter les éléments manquant pour les intégrer
