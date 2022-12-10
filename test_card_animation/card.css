@@ -1,0 +1,55 @@
+@import "../src/css/style.css";
+
+body {
+    background-color: gray
+}
+
+.cardBoxTest {
+    position: relative;
+    width: 310px;
+    height: 125px;
+    border-radius: 20px;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+}
+
+.cardBoxTest::before {
+    content: '';
+    position: absolute;
+    width: 310px;
+    height: 125px;
+    background-image: conic-gradient(transparent, transparent, transparent, var(--orange_sunset));
+    animation: rotate 6s linear infinite;
+}
+
+.cardBoxTest::after {
+    content: '';
+    position: absolute;
+    width: 300px;
+    height: 115px;
+    background-image: conic-gradient(transparent, transparent, transparent, var(--violet_sunset));
+    animation: rotate 6s linear infinite;
+    animation-delay: -2s;
+}
+
+span {
+    position: absolute;
+    height: 113px;
+    width: 298px;
+    inset: 20px;
+    border-radius: 16px;
+    background-color: #000000;
+    z-index: 2;
+    margin: auto;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    100% {
+        transform: rotate(360deg)
+    }
+}
