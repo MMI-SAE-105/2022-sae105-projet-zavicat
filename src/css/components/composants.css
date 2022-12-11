@@ -37,11 +37,31 @@
     left: "";
 }
 
-.component5 {
+.component5_6 {
+    position: relative;
+    display: grid;
+}
+
+.component5_6::before {
     position: absolute;
-    top: "";
-    left: "";
-    z-index: "";
+    content: url(../../../public/icons/dots_b.svg);
+}
+
+.component5_6::after {
+    position: absolute;
+    content: url(../../../public/icons/patterns_mix_3.svg);
+}
+
+.component7 {
+    position: relative;
+    display: grid;
+}
+
+.component7::before {
+    position: absolute;
+    content: url(../../../public/icons/patterns_mix_4.svg);
+    left: 0px;
+    bottom: 0px;
 }
 
 .componentabout {
