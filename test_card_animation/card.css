@@ -30,10 +30,9 @@ body {
     height: 220px;
     background-image: conic-gradient(transparent, transparent, transparent, var(--violet_sunset));
     animation: rotate 2.5s linear infinite;
-    animation-delay: 20s;
 }
 
-span {
+.cardBlock {
     position: absolute;
     height: 115px;
     width: 300px;
@@ -52,10 +51,17 @@ span {
 .cardImage {
     position: absolute;
     height: 115px;
-    z-index: 2;
+    z-index: 3;
     right: 5px;
     border-radius: 15px;
-    bottom: 5px;
+    bottom: 4.8px;
+}
+
+.cardTitle {
+    position: absolute;
+    top: 5px;
+    line-height: 0px;
+    z-index: 5;
 }
 
 
