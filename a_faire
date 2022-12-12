@@ -1,3 +1,12 @@
+<!--objectifs de la prochaine session-->
+- animation de scroll page article 1
+- page article 2
+
+<!--obectifs généraux-->
+*
+    - ajouter les liens externes sur toutes les pages
+    - responsive si faisable
+
 fr/a_propos.html 
     - importer l'avatar directement dans le code html
 
@@ -9,7 +18,7 @@ footer
     - changer l'import du composant en :before
     - utiliser flex plutôt que columns
 
-*
+components
     - renommer "imageAbout1.css"
 
 variables
@@ -17,6 +26,7 @@ variables
 
 fr/article_1
     - ajouter titre "navigation" avant la frise
+    - ajouter les animations de scroll instantané en cliquant sur les élémennts de la frise
 
 redirects
     - designer la page redirects
@@ -25,5 +35,6 @@ test_card_animation
     - régler le problème de position et de superposition du texte de la card
     - appliquer les données du dossier à fr/index.html (cards statiques)
 
-externe : maquette 
-    - compléter les éléments manquant pour les intégrer
+<!--objectifs externes-->
+maquette 
+    - compléter les éléments manquants pour les intégrer
