@@ -110,3 +110,8 @@ a {
     font-weight: bold;
     text-decoration: none;
 }
+
+/*Alignement des paragraphes à droite*/
+p {
+    text-align: left;
+}
