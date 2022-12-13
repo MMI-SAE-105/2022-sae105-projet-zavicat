@@ -21,22 +21,19 @@
 .cardBox::before {
     content: '';
     position: absolute;
-    width: 800px;
-    height: 100px;
-    background-image: conic-gradient(transparent, var(--orange_sunset), transparent);
-    animation: rotate 5s linear infinite;
-    transform-origin: center;
+    width: 550px;
+    height: 220px;
+    background-image: conic-gradient(transparent, transparent, transparent, var(--orange_sunset));
+    animation: rotate 2.5s linear infinite;
 }
 
 .cardBox::after {
     content: '';
     position: absolute;
-    width: 800px;
-    height: 100px;
-    background-image: conic-gradient(transparent, var(--violet_sunset), transparent);
-    animation: rotate 5s linear infinite;
-    animation-delay: 2s;
-    transform-origin: center;
+    width: 550px;
+    height: 220px;
+    background-image: conic-gradient(transparent, transparent, transparent, var(--violet_sunset));
+    animation: rotate 2.5s linear infinite;
 }
 
 .cardBlock {
