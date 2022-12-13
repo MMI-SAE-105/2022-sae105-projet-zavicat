@@ -6,45 +6,7 @@
     margin-bottom: 4rem;
 }
 
-.cardContainer1 {
-    position: relative;
-    width: 18.75rem;
-    border-style: solid;
-    border-color: white;
-    border-radius: .625rem;
-    margin: auto;
-    line-height: 0rem;
-}
-
-.cardImage1 {
-    position: absolute;
-    width: 8.1875rem;
-    z-index: -1;
-    right: 0;
-}
-
-.cardText1 {
-    margin-bottom: 3.375rem;
-}
-
-.cardContainer2 {
-    position: relative;
-    width: 18.75rem;
-    border-style: solid;
-    border-color: white;
-    border-radius: .625rem;
-    margin: auto;
-    line-height: 0rem;
-}
-
-.cardImage2 {
-    position: absolute;
-    width: 8.4375rem;
-    z-index: -1;
-    right: -0.125rem;
-}
-
-.cardBox3 {
+.cardBox {
     position: relative;
     width: 310px;
     height: 125px;
@@ -54,7 +16,7 @@
     overflow: hidden;
 }
 
-.cardBox3::before {
+.cardBox::before {
     content: '';
     position: absolute;
     width: 550px;
@@ -63,7 +25,7 @@
     animation: rotate 2.5s linear infinite;
 }
 
-.cardBox3::after {
+.cardBox::after {
     content: '';
     position: absolute;
     width: 550px;
@@ -72,7 +34,7 @@
     animation: rotate 2.5s linear infinite;
 }
 
-.cardBlock3 {
+.cardBlock {
     position: absolute;
     height: 115px;
     width: 300px;
@@ -88,7 +50,7 @@
     border-radius: 16px;
 }
 
-.cardImage3 {
+.cardImage {
     position: absolute;
     height: 115px;
     z-index: 3;
@@ -97,76 +59,24 @@
     bottom: 4.8px;
 }
 
-.cardTitle3 {
+.cardTitle {
     position: absolute;
     top: 5px;
     line-height: 0px;
     z-index: 5;
 }
 
+.cardTitleSpacing {
+    line-height: 1.25rem;
+}
 
+/*Animation des cards*/
 @keyframes rotate {
     0% {
-        transform: rotate(0deg)
+        transform: rotate(0deg);
     }
 
     100% {
-        transform: rotate(360deg)
+        transform: rotate(360deg);
     }
-}
-
-.cardContainer4 {
-    position: relative;
-    width: 18.75rem;
-    border-style: solid;
-    border-color: white;
-    border-radius: .625rem;
-    margin: auto;
-    line-height: 0rem;
-}
-
-.cardImage4 {
-    position: absolute;
-    width: 8.4375rem;
-    z-index: -1;
-    right: -0.0938rem;
-}
-
-.cardContainer5 {
-    position: relative;
-    width: 18.75rem;
-    border-style: solid;
-    border-color: white;
-    border-radius: .625rem;
-    margin: auto;
-    line-height: 0rem;
-}
-
-.cardImage5 {
-    position: absolute;
-    width: 8.4375rem;
-    z-index: -1;
-    top: -0.0625rem;
-    right: -0.0938rem;
-}
-
-.cardContainer6 {
-    position: relative;
-    width: 18.75rem;
-    border-style: solid;
-    border-color: white;
-    border-radius: .625rem;
-    margin: auto;
-    line-height: 0rem;
-}
-
-.cardImage6 {
-    position: absolute;
-    width: 8.4375rem;
-    z-index: -1;
-    right: -0.0938rem;
-}
-
-.cardTextSpacing {
-    line-height: 1.25rem;
 }
