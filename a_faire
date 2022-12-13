@@ -6,6 +6,9 @@
 *
     - ajouter les liens externes sur toutes les pages
     - responsive si faisable
+    - légendes en figcaption
+    - page 404
+    - renommer composants (2xcomponent5) et refaire les classes 
 
 fr/a_propos.html 
     - importer l'avatar directement dans le code html
