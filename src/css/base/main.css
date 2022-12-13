@@ -115,3 +115,8 @@ a {
 p {
     text-align: left;
 }
+
+.quoteEnd {
+    font-size: var(--small);
+    text-align: right;
+}
