@@ -18,8 +18,7 @@ fr/a_propos.html
     - importer l'avatar directement dans le code html
 
 fr/index.html
-    - placer les composants
-    - refaire la card, ajouter les autres
+    - trouver problème d'affichage
 
 footer
     - changer l'import du composant en :before
