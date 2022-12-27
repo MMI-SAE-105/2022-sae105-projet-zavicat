@@ -1,4 +1,7 @@
-<!--objectifs de la prochaine session-->
+<!--objectif en cours-->
+- édition de la maquette Figma 
+
+<!--objectifs suivants-->
 - animation de scroll page article 1
 - page article 2
 
@@ -9,6 +12,7 @@
     - légendes en figcaption
     - page 404
     - renommer composants (2xcomponent5) et refaire les classes 
+    - classes selon la méthodologie bem
 
 fr/a_propos.html 
     - importer l'avatar directement dans le code html
