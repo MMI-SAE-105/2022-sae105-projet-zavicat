@@ -40,6 +40,13 @@
     top: 0;
 }
 
+.menu-open .nav-toggle-bar::before,
+.menu-open .nav-toggle-bar::after {
+    transform: rotate(90deg);
+    background-color: white;
+    top: 0;
+}
+
 .menu {
     background-color: var(--noir);
     position: fixed;
