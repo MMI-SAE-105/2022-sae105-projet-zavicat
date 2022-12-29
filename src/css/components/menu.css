@@ -34,6 +34,13 @@
     background-color: white;
 }
 
+.menu-open .nav-toggle-bar::before,
+.menu-open .nav-toggle-bar::after {
+    transform: rotate(90deg);
+    background-color: white;
+    top: 0;
+}
+
 .menu {
     background-color: midnightblue;
     position: fixed;
