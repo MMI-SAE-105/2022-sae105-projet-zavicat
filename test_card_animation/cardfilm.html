@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test card film</title>
+    <link rel="stylesheet" href="cardfilm.css">
+</head>
+
+<img src="../public/img/filmcard_1.png" id="image">
+<div id="text" class="hidden">Some text</div>
+
+<style>
+    .hidden {
+        display: none;
+    }
+</style>
+
+<script>
+    const image = document.getElementById('image');
+    const text = document.getElementById('text');
+
+    image.addEventListener('click', function () {
+        image.style.display = 'none';
+        text.style.display = 'block';
+    });
+</script>
+</body>
+
+</html>
