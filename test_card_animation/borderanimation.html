@@ -1,0 +1,23 @@
+<style>
+    .rectangle {
+        width: 300px;
+        height: 115px;
+        border: 2px solid;
+        border-radius: 10px;
+        border-image: linear-gradient(to right, #f00, #0f0, #00f) 2;
+        animation: gradient 5s ease infinite;
+    }
+
+    @keyframes gradient {
+        0% {
+            border-image-slice: 1%;
+        }
+
+        100% {
+            border-image-slice: 99%;
+        }
+
+    }
+</style>
+
+<div class="rectangle"></div>
