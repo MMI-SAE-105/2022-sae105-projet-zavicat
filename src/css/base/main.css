@@ -41,6 +41,7 @@ h2 {
 
 h3 {
     font-size: var(--title-h3);
+    text-transform: uppercase;
 }
 
 h4 {
@@ -112,7 +113,7 @@ a {
     text-decoration: none;
 }
 
-/*Alignement des paragraphes à droite*/
+/*Alignement des paragraphes à gauche*/
 p {
     text-align: left;
 }
@@ -120,4 +121,23 @@ p {
 .quoteEnd {
     font-size: var(--small);
     text-align: right;
+}
+
+/*Autres projets*/
+.project-profile,
+.project-profile p {
+    text-align: center;
+}
+
+.project-title {
+    text-transform: uppercase;
+}
+
+.project-profile {
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.project-profile::after {
+    content: url(../../../public/icons/dots_s.svg)
 }
