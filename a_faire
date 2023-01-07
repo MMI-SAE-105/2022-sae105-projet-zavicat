@@ -1,22 +1,7 @@
-<!--objectifs en cours-->
-- menu + header (flex)
-- édition de la maquette Figma 
-    filmographie : OK
-    illustrations pages 5 & 6 : en cours
-    légendes : en attente
-    glossaire : en attente
-
-<!--objectifs suivants-->
-- animation de scroll page article 1
-- page article 2
-
 <!--obectifs généraux-->
 *
     - ajouter les liens externes sur toutes les pages
-    - responsive si faisable
     - légendes en figcaption
-    - page 404
-    - renommer composants (2xcomponent5) et refaire les classes 
     - classes selon la méthodologie bem
 
 fr/a_propos.html 
@@ -32,20 +17,6 @@ footer
 components
     - renommer "imageAbout1.css"
 
-variables
-    - variable pour police cards
-
 fr/article_1
     - ajouter titre "navigation" avant la frise
-    - ajouter les animations de scroll instantané en cliquant sur les élémennts de la frise
-
-redirects
-    - designer la page redirects
-
-test_card_animation
-    - régler le problème de position et de superposition du texte de la card
-    - appliquer les données du dossier à fr/index.html (cards statiques)
-
-<!--objectifs externes-->
-maquette 
-    - compléter les éléments manquants pour les intégrer
+    - ajouter les animations de scroll instantané en cliquant sur les éléments de la frise
