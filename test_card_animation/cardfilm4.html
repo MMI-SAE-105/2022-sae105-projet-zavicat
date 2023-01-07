@@ -1,0 +1,16 @@
+<img src="../public/img/filmcard_1.png" alt="your-image-description" id="image">
+
+<script>
+    const image = document.querySelector('#image');
+
+    let toggle = true;
+
+    setInterval(function () {
+        if (toggle) {
+            image.src = '../public/img/avatar_zoe.svg';
+        } else {
+            image.src = '../public/img/filmcard_1.png';
+        }
+        toggle = !toggle;
+    }, 5000);
+</script>

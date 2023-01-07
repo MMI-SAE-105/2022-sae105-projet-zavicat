@@ -8,13 +8,26 @@
     <title>Test card film</title>
     <link rel="stylesheet" href="cardfilm.css">
 </head>
-
-<img src="../public/img/filmcard_1.png" id="image">
-<div id="text" class="hidden">Some text</div>
+<div class="filmcard-container">
+    <img src="../public/img/filmcard_1.png" id="image">
+    <div id="text" class="hidden">
+        <h3>Some text</h3>
+    </div>
+</div>
 
 <style>
+    .filmcard-container {
+        position: relative;
+        display: block;
+        align-items: center;
+    }
+
     .hidden {
         display: none;
+    }
+
+    #text {
+        color: white
     }
 </style>
 
