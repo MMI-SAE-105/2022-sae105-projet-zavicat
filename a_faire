@@ -7,6 +7,7 @@
 
 fr/a_propos.html 
     - importer l'avatar directement dans le code html
+    - refaire la feuille css
 
 fr/index.html
     - trouver problème d'affichage
@@ -15,9 +16,11 @@ footer
     - changer l'import du composant en :before
     - utiliser flex plutôt que columns
 
-components
-    - renommer "imageAbout1.css"
-
 fr/article_1
     - ajouter titre "navigation" avant la frise
     - ajouter les animations de scroll instantané en cliquant sur les éléments de la frise
+
+<!--Note-->
+    - ne pas faire le glossaire
+    - en anglais : page index + page article 1 + autres projets + a propos + contact
+    - en français : page index + pages articles 1 à 4 + autre projets + a propos + contact
