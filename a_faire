@@ -1,13 +1,10 @@
 <!--obectifs généraux-->
+TROUVER PROBLEME INDEX + FOOTER
     - légendes en figcaption
     - classes selon la méthodologie bem
     - corriger décalage des images frise
     - animation filmographie + cards article
     - liens internes externes
-
-fr/a_propos.html 
-    - importer l'avatar directement dans le code html
-    - refaire la feuille css
 
 fr/index.html
     - trouver problème d'affichage
