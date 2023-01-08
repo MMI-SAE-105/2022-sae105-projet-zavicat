@@ -102,12 +102,8 @@ main {
     left: 0.625rem;
 }
 
-/*page article 3*/
-.component16,
-.component17,
-.component18,
-.component19,
-.component20 {
+/*nouvelle méthodologie d'organisation et placement des composants*/
+.component {
     position: relative;
     display: grid;
     margin-bottom: 20px;
