@@ -1,9 +1,9 @@
 <!--obectifs généraux-->
-*
-    - ajouter les liens externes sur toutes les pages
     - légendes en figcaption
     - classes selon la méthodologie bem
     - corriger décalage des images frise
+    - animation filmographie + cards article
+    - liens internes externes
 
 fr/a_propos.html 
     - importer l'avatar directement dans le code html
@@ -24,3 +24,20 @@ fr/article_1
     - ne pas faire le glossaire
     - en anglais : page index + page article 1 + autres projets + a propos + contact
     - en français : page index + pages articles 1 à 4 + autre projets + a propos + contact
+
+<!--FR-->
+    Index : OK
+    P1 : OK
+    P2 : OK
+    P3 : OK
+    P4 : OK
+    Autres projets :
+    A propos :
+    Contact :
+
+<!--EN-->
+    Index :
+    P1 :
+    Other Projects :
+    About :
+    Contact :
