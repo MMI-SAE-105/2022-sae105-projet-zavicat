@@ -1,8 +1,13 @@
+.menu img {
+    margin: 0;
+    width: 50px;
+}
+
 .nav-toggle {
     width: 30px;
     height: 30px;
     position: absolute;
-    top: 30px;
+    top: 35px;
     right: 30px;
     display: flex;
     align-items: center;
@@ -79,7 +84,7 @@
 }
 
 .menu li {
-    margin-bottom: 30px;
+    line-height: 0px;
     transform: translateX(30px);
     opacity: 0;
     transition: all .3s ease;
@@ -87,6 +92,10 @@
 
 .menu a {
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 20px;
 }
 
 .menu-open .menu li {
@@ -124,4 +133,21 @@
 
 .menu-open .menu li:nth-child(n+8) {
     transition-delay: 1s;
+}
+
+.menu-flex {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -5px;
+
+}
+
+.menu-flex-spacing {
+    line-height: 20px;
+}
+
+.menu-gunnm {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
 }
