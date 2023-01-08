@@ -101,3 +101,52 @@ main {
     top: 47.25rem;
     left: 0.625rem;
 }
+
+/*page article 3*/
+.component16,
+.component17,
+.component18,
+.component19,
+.component20 {
+    position: relative;
+    display: grid;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.component16::before {
+    position: absolute;
+    content: url(../../../public/icons/cloud_2.svg);
+    top: -2px;
+    right: 25px;
+}
+
+.component17::before {
+    position: absolute;
+    content: url(../../../public/icons/patterns_mix_2.svg);
+    top: -10px;
+    right: 25px;
+}
+
+.component18::after {
+    position: absolute;
+    content: url(../../../public/icons/cross_3.svg);
+    bottom: 40px;
+    left: 8px;
+}
+
+.component19::before {
+    position: absolute;
+    content: url(../../../public/icons/dots_m.svg);
+    bottom: 2px;
+    right: 8px;
+    z-index: -1
+}
+
+.component20::before {
+    position: absolute;
+    content: url(../../../public/icons/patterns_mix_4.svg);
+    top: 125px;
+    right: -20px;
+}
