@@ -6,7 +6,7 @@
 .timeline {
     display: flex;
     flex-direction: column;
-    gap: 3.125rem;
+    gap: .125rem;
     overflow: hidden;
 }
 
@@ -14,8 +14,8 @@
 .timeline::after {
     content: url(../../../public/icons/arrow.svg);
     display: block;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
+    margin-top: 5rem;
+    margin-bottom: 2.5rem;
     text-align: center;
 }
 
@@ -27,6 +27,7 @@
     border-width: .4375rem;
     width: 15rem;
     height: 15rem;
+    margin-bottom: .625rem;
 }
 
 .tlImage2 {
@@ -36,6 +37,7 @@
     border-width: .4375rem;
     width: 15rem;
     height: 15rem;
+    margin-bottom: .625rem;
 }
 
 .tlImage3 {
@@ -45,6 +47,8 @@
     border-width: .4375rem;
     width: 15rem;
     height: 15rem;
+    margin-bottom: .625rem;
+
 }
 
 /*Lignes de la frise*/
@@ -52,7 +56,7 @@
     content: url(../../../public/icons/timeline/path_right.svg);
     position: absolute;
     right: 1rem;
-    top: 7.5rem;
+    top: 8.75rem;
     z-index: -1;
 }
 
@@ -87,7 +91,7 @@
     width: 14rem;
     background-color: white;
     border-radius: 1.25rem;
-    top: 11.5rem;
+    top: 13.75rem;
     left: 6.5rem;
     padding-bottom: 1.875rem;
 
@@ -101,7 +105,7 @@
     width: 14rem;
     background-color: white;
     border-radius: 1.25rem;
-    top: 11.5rem;
+    top: 13.75rem;
     left: 3rem;
     padding-bottom: 1.875rem;
 }
@@ -113,7 +117,7 @@
     width: 14rem;
     background-color: white;
     border-radius: 1.25rem;
-    top: 11.5rem;
+    top: 13.75rem;
     left: 6.5rem;
     padding-bottom: 1.875rem;
 }
