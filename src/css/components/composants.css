@@ -104,12 +104,6 @@ main {
     position: relative;
 }
 
-.componentabout {
-    position: absolute;
-    top: 47.25rem;
-    left: 0.625rem;
-}
-
 /*nouvelle méthodologie d'organisation et placement des composants*/
 .component {
     position: relative;
@@ -200,4 +194,25 @@ main {
     content: url(../../../public/icons/square_mix_1.svg);
     top: 270px;
     right: -20px;
+}
+
+/*Page A propos*/
+.component-about-1 {
+    position: absolute;
+    top: 925px;
+    right: 0px;
+}
+
+.component-about-2::before {
+    position: absolute;
+    content: url(../../../public/icons/cloud_4.svg);
+    top: 10px;
+    left: 10px;
+}
+
+.component-about-3::after {
+    position: absolute;
+    content: url(../../../public/icons/cloud_5.svg);
+    bottom: 10px;
+    right: 10px;
 }
