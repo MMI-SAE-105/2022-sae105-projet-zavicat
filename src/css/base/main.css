@@ -141,3 +141,8 @@ p {
 .project-profile::after {
     content: url(../../../public/icons/dots_s.svg)
 }
+
+img {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}

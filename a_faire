@@ -3,6 +3,7 @@
     - ajouter les liens externes sur toutes les pages
     - légendes en figcaption
     - classes selon la méthodologie bem
+    - corriger décalage des images frise
 
 fr/a_propos.html 
     - importer l'avatar directement dans le code html

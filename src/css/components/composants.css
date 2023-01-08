@@ -48,8 +48,8 @@ main {
 .component5_6 {
     position: relative;
     display: grid;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .component5_6::before {
@@ -71,8 +71,8 @@ main {
 .component7 {
     position: relative;
     display: grid;
-    margin-top: 50px;
-    margin-bottom: 70px;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 .component7::before {
@@ -87,8 +87,8 @@ main {
     position: relative;
     display: grid;
     text-align: center;
-    margin-bottom: 50px;
-    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .component8::before {
