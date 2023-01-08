@@ -1,3 +1,11 @@
+/*A copier coller*/
+.componentNUMBER::before {
+    position: absolute;
+    content: url(../../../public/icons/svg.svg);
+    top: 0px;
+    right: 0px;
+}
+
 /*Style des composants*/
 main {
     overflow: hidden;
@@ -111,6 +119,7 @@ main {
     overflow: hidden;
 }
 
+/*page article 3*/
 .component16::before {
     position: absolute;
     content: url(../../../public/icons/cloud_2.svg);
@@ -144,5 +153,51 @@ main {
     position: absolute;
     content: url(../../../public/icons/patterns_mix_4.svg);
     top: 125px;
+    right: -20px;
+}
+
+/*page article 4*/
+.component21::before {
+    position: absolute;
+    content: url(../../../public/icons/cross_mix.svg);
+    top: 320px;
+    right: 20px;
+}
+
+.component22::after {
+    position: absolute;
+    content: url(../../../public/icons/patterns_mix_1.svg);
+    top: 640px;
+    right: 10px;
+}
+
+.component23::before {
+    position: absolute;
+    content: url(../../../public/icons/dots_b.svg);
+    bottom: 0px;
+    left: 0px;
+    z-index: -1;
+}
+
+.component24::before {
+    position: absolute;
+    content: url(../../../public/icons/square_mix_2.svg);
+    bottom: 60px;
+    left: 15px;
+
+}
+
+.component25::after {
+    position: absolute;
+    content: url(../../../public/icons/dots_m.svg);
+    bottom: 10px;
+    right: 0px;
+    z-index: -1;
+}
+
+.component26::before {
+    position: absolute;
+    content: url(../../../public/icons/square_mix_1.svg);
+    top: 270px;
     right: -20px;
 }
