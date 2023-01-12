@@ -113,6 +113,54 @@ main {
     overflow: hidden;
 }
 
+.component9::before {
+    content: url(../../../public/icons/dots_b.svg);
+    z-index: -1;
+    left: 5px;
+    position: absolute;
+}
+
+
+.component10::after {
+    content: none;
+}
+
+.component11::before {
+    position: absolute;
+    content: url(../../../public/icons/square_1.svg);
+    right: 10px;
+    bottom: 10px;
+}
+
+.component12::after {
+    position: absolute;
+    content: url(../../../public/icons/cloud_1.svg);
+    top: 13px;
+    left: 10px;
+}
+
+.component13::before {
+    position: absolute;
+    content: url(../../../public/icons/dots_b.svg);
+    right: -190px;
+    top: 15px;
+}
+
+.component14::after {
+    position: absolute;
+    content: url(../../../public/icons/dots_m.svg);
+    bottom: 0;
+    z-index: -1;
+    left: 20px;
+}
+
+.component15::before {
+    position: absolute;
+    content: url(../../../public/icons/patterns_mix_3.svg);
+    top: 80px;
+    right: -70px;
+}
+
 /*page article 3*/
 .component16::before {
     position: absolute;
