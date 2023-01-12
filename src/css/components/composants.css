@@ -216,3 +216,22 @@ main {
     bottom: 10px;
     right: 10px;
 }
+
+.cardsArticle {
+    position: relative;
+}
+
+.cardsArticle::before {
+    content: url(../../../public/icons/patterns_mix_2.svg);
+    position: absolute;
+    z-index: 20;
+    top: 250px;
+    left: -20px;
+}
+
+.cardsArticle::after {
+    content: url(../../../public/icons/dots_b.svg);
+    position: absolute;
+    top: 530px;
+    right: 0px;
+}
