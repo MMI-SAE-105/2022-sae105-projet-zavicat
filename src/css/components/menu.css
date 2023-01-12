@@ -135,6 +135,10 @@
     transition-delay: 1s;
 }
 
+.menu-open .menu li:nth-child(n+9) {
+    transition-delay: 1.1s;
+}
+
 .menu-flex {
     display: flex;
     flex-direction: column;
@@ -144,10 +148,17 @@
 
 .menu-flex-spacing {
     line-height: 20px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    padding-bottom: 20px;
 }
 
-.menu-gunnm {
-    margin-top: 10px;
+
+.menu-right {
     display: flex;
-    flex-direction: column;
+
+}
+
+.menu-bottom {
+    margin-top: 40px;
 }
