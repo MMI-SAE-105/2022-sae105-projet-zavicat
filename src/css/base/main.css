@@ -83,11 +83,6 @@ p {
     line-height: 0px;
 }
 
-/*Avatar de la page about A REFAIRE*/
-.articleHeader1::after {
-    content: url(../../../public/img/avatar_zoe.svg);
-}
-
 /*Annulation des décorations de boutons*/
 button {
     border: none;
@@ -162,4 +157,8 @@ p {
 img {
     margin-bottom: 30px;
     margin-top: 30px;
+}
+
+.homepage-title {
+    margin-top: 120px;
 }
